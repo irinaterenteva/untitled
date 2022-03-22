@@ -1,9 +1,6 @@
 
 
-This is start of my book
-Page 1 will help us get started
-
-
-Java is easy
-
-I will get job easy with 150 k salary
+This is start of my book.
+Page 1 will help us get started.
+Java is - easy!
+I will get job easy with 150 k salary;
