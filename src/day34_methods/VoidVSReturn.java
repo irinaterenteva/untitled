@@ -8,7 +8,7 @@ public class VoidVSReturn {
         sayBye();
         System.out.println(sayBye());
         String msg = sayBye();
-        
+
     }
     public static void sayHello() {
         System.out.println("Hello");
