@@ -1,4 +1,4 @@
-package day34_methods;
+package my_utilities.day34_methods;
 
 public class VoidVSReturn {
     public static void main(String[] args) {
