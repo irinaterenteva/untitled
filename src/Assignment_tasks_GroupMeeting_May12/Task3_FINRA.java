@@ -20,7 +20,6 @@ public class Task3_FINRA {
                 else if (i % 5 == 0)
                     result += "RA ";
 
-
                 else
                     result += i + " ";
             }

@@ -19,7 +19,7 @@ public class ArraysIntro {
 
         String [] cities = {"Chicago","New York","Houston","Denver","Pittsburg" };
         String [] cities2 = {cityOne, cityTwo, cityThree, cityFour, cityFive};
-        System.out.println(cities); // this doesnt print the array how we wan
+        System.out.println(cities); // this doesnt print the array how we want
 
         //how to access each element in the array
         System.out.println(cities[0]);

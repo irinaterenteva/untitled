@@ -8,6 +8,44 @@ public class Task2_DivideWithoutOp {
 Write a method that can divide two numbers without using division operator
 
      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     static int division(int num1, int num2) {
         if (num1 == 0)
             return 0;

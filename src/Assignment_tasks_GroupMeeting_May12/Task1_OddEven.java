@@ -13,16 +13,25 @@ identify(6) ->  "Even"
          */
 
         int num;
-
-        System.out.print("Enter the number :");
-
         Scanner input = new Scanner(System.in);
+
+
+        System.out.println("Enter the number :");
+
         num = input.nextInt();
         if (num % 2 == 0) {
             System.out.println("The number " + num + " is Even ");
-        } else {
+        } else if (num==0){
+            System.out.println("The number " + num + " is Zero");
+        }else {
             System.out.println("The number " + num + " is Odd ");
 
+
+//notes
+            /*
+            boolean isEven = num % 2 == 0;
+            boolean isOdd = num % != 0; // num%2 == 1
+             */
         }
     }
 }

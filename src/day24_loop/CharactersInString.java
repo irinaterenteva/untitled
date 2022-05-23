@@ -18,6 +18,7 @@ public class CharactersInString {
 
             System.out.println(s.charAt(i) + " ");
 
+// int value = s.charAt(i);
 
         }
     }

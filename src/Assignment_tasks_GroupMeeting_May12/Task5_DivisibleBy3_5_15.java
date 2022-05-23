@@ -14,19 +14,19 @@ Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84
      */
     public static void main(String[] args) {
         System.out.println("Divisible by 15: ");
-        for (int i=1; i<100; i++) {
+        for (int i=1; i<=100; i++) {
             if (i%3==0 && i%5==0 && i%15==0)
                 System.out.print(i +", ");
         }
 
         System.out.println("\nDivisible by 5: ");
-        for (int i=1; i<100; i++) {
+        for (int i=1; i<=00; i++) {
             if (i%5==0 && i%15!= 0)
 
                 System.out.print(i +", ");
         }
         System.out.println("\nDivisible by 3: ");
-        for (int i=1; i<100; i++) {
+        for (int i=1; i<=100; i++) {
             if (i%3==0 && i%15!= 0)
 
                 System.out.print(i +", ");
@@ -34,4 +34,22 @@ Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84
 
           }
 
+
+          /*
+          public String divisibleBy3515(int a) {
+        String num3515 = "";
+        String num5 = "";
+        String num3 = "";
+        for (int i = 0; i < a; i++) {
+            if (i % 3 == 0 && i % 5 == 0 && i % 15 == 0) {
+                num3515 += " "+i;
+            } else if (i % 3 == 0 && i % 15 != 0) {
+                num3 += " "+i;
+            } else if (i % 5 == 0 && i % 15 != 0) {
+                num5 += " "+i;
+            }
+        }
+        String phrase = "Divisible By 15: " + num3515 + "\nDivisible By 5: " + num5 + "\nDivisible By 3: " + num3;
+        return phrase.trim();
+           */
 }

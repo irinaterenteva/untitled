@@ -6,6 +6,7 @@ public class ForEachExample {
 
         int [ ] num = {30, 12, 159, 12};
 
+
         for (int i = 0; i < num.length; i++){
             System.out.println("traditional " + num[i]);
         }

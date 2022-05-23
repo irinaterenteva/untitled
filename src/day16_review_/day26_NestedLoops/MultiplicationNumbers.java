@@ -1,4 +1,4 @@
-package day26_NestedLoops;
+package day16_review_.day26_NestedLoops;
 
 public class MultiplicationNumbers {
     /*
